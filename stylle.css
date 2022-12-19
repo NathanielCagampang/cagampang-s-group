@@ -1,77 +1,83 @@
-*{
-  padding:0;
-  margin:0;
-  list-style:none;
-  text-decoration:none;
-  box-sizing:border-box;
+{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
 }
- body{
-   fontfamily:montserrat;
-   background:url(nath.jpg);
-  }
+body{
+	font-family: montserrat;
+	background: url(nath.jpg);
+}
 nav{
-  background:#0002e8;
-  height:100px;
-  width:80px;
+	background: #0082e6;
+	height: 80px;
+	width: 100%;
 }
-label .logo{
-  color:red;
-  font-size:35px;
-  line-height:80px;
-  padding:0 100px;
-  font-weight:bold;
-  font-family:rockwell;
+label.logo{
+	color: red;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-weight: bold;
+	font-family: Rockwell;
 }
-nav ul {
-  float:right:
-    margin-right:20px
-}
-nav ul li{
-  display:inline-block;
-  line-height:80px;
-  margin:0 5px;
-}
-nav ul li .active{
-  color:red;
+nav ul{
+	float: right;
+	margin-right: 20px;
 }
 nav ul li{
-  color: white;
-  font-size-17px;
-  padding:7px 13px;
-  border-radius:3px;
-  text-transform:uppercase;
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
 }
-li a:hover:not(.active){
-  background-color:grey;
+nav ul li a .active{
+	color: red;
+
 }
-.active{
-  position:fixed
-   width:10%;
-  height:100%
-  background-color:blue;
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+
+}
+li a:hover:not(.active) {
+  background-color: grey;
+}
+
+.active {
+  background-color: yellowgreen;
 }
 .sidebar{
-  color:yellow;
-  font-size:15px;
-  paddong:20px;
-  border-bottom:1px solid black;
-  text-align:center;
+	position: fixed;
+	width: 10%;
+	height: 100%;
+	background-color: blue;
+
 }
-a .active, a:hover{
-  background:red;
-  transition:.5s
+.sidebar li a{
+	color: yellow;
+	font-size: 15px;
+	padding: 20px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+a .active,a:hover{
+    background: red;
+    transition: .5s ;
 }
 .about{
-  font-size:30px
-   text-align:left
-    margin-top:100px
-    margin-left:100px
-    color:red;
-  .age{
-   font-size:40px
-    text-align:center;
-    margin-left:100px
-      margin-top 50px;
-    color:red;
-  
-    
+	font-size: 30px;
+	text-align: left;
+	margin-top: 100px;
+	margin-left: 100px;
+	color: red;
+}
+.age{
+	font-size: 30px;
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 100px;
+}
